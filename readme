@@ -1,0 +1,15 @@
+myBatis的逆向工程  生成sql
+
+逆向工程生成的代码有3类：
+1. pojo。根据数据库中的字段生成pojo
+2. mapper映射文件 --- xml文件
+3. mapper接口
+
+pojo放在一个包下（com.taotao.pojo）
+mapper文件和接口放在同一个目录下（com.taotao.mapper）
+
+启动：
+运行src/com.taotao.generator/GeneratorSqlmap.java
+
+生成文件com.taotao.pojo和com.taotao.mapper，
+分别放在/taotao-manager-pojo和/taotao-manager-dao下
